@@ -121,3 +121,115 @@ form .user i {
     color: #FFB800;
 }
 
+/* banner area css */
+
+#banner_area {
+    padding: 132px 0 173px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: #FCCD23; */
+}
+
+#banner_area h1 {
+    color: #FFF;
+    text-shadow: 0px 27px 82px rgba(255, 174, 0, 0.28);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#banner_area p {
+    color: #504F4F;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+hr {
+    color: #EEEEEE;
+}
+
+#banner_area .orderCard {
+    background-color: #fff;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+#banner_area .orderCard .top,
+#banner_area .orderCard .bottom {
+    padding: 24px;
+}
+
+#banner_area .orderCard .top {
+    display: flex;
+    column-gap: 8px;
+}
+
+#banner_area .orderCard .top .tab1,
+#banner_area .orderCard .top .tab2 {
+    display: flex;
+    column-gap: 10px;
+}
+
+#banner_area .orderCard .top .tab1 img,
+#banner_area .orderCard .top .tab2 img {
+    width: 100%;
+}
+
+#banner_area .orderCard .top .tab1 span {
+    color: #F17228;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#banner_area .orderCard .top .tab1 {
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: rgba(241, 114, 40, 0.10);
+}
+
+#banner_area .orderCard .top .tab2 span {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#banner_area .orderCard .top .tab2 {
+    padding: 10px 24px;
+}
+
+#banner_area .form-control {
+    padding: 12px 250px 13px 46px;
+}
+
+#banner_area .bottom .row{
+    align-items: baseline;
+}
+
+#banner_area .bottom input{
+    border-radius: 8px;
+    background: #F5F5F5;
+    border: 0;
+}
+
+
+#banner_area button.banner_btn {
+    padding: 21px 48px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 8px;
+    background: linear-gradient(138deg, #FF7A7A 0%, #F65900 100%);
+}
+
+#banner_area button.banner_btn i {
+    margin-right: 10px;
+}
