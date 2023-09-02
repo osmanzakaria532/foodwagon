@@ -66,3 +66,6 @@ $('.search_items').slick({
         }
     ]
 });
+
+
+AOS.init();
