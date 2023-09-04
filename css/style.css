@@ -129,6 +129,7 @@ form .user i {
     background-position: center;
     background-size: cover;
     /* background-color: #FCCD23; */
+    overflow: hidden;
 }
 
 #banner_area h1 {
@@ -205,7 +206,7 @@ hr {
 }
 
 #banner_area .form-control {
-    padding: 12px 46px 13px 46px;
+    padding: 12px 46px;
 }
 
 #banner_area .bottom .row{
@@ -228,13 +229,13 @@ hr {
     color: #FF7474;
     font-size: 24px;
     position: absolute;
-    left: 35px;
+    left: 30px;
     top: 50%;
-    transform: translate(-50%, -80%);
-    -webkit-transform: translate(-50%, -80%);
-    -moz-transform: translate(-50%, -80%);
-    -ms-transform: translate(-50%, -80%);
-    -o-transform: translate(-50%, -80%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 #banner_area button.banner_btn {
@@ -255,6 +256,7 @@ hr {
 
 #flashDealsArea {
     padding: 80px;
+    overflow: hidden;
 }
 
 #flashDealsArea .flashDealsCard .cardImg img {
@@ -328,6 +330,7 @@ hr {
     text-align: center;
     padding: 80px 298px;
     background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) 0%, rgba(253, 237, 202, 0.00) 100%);
+    overflow: hidden;
 }
 
 #work_area h2 {
@@ -496,6 +499,7 @@ hr {
 
 #featured_area{
     padding-top: 80px;
+    overflow: hidden;
 }
 
 #featured_area .row {
@@ -631,6 +635,7 @@ hr {
     background-color: #FEFAF1;
     margin-top: 80px;
     padding: 82px 0 50px;
+    overflow: hidden;
 }
 
 #search_area .search_heading {
@@ -744,6 +749,7 @@ hr {
 #features_area {
     background-color: #FEEFD0;
     padding: 130px 0 80px;
+    overflow: hidden;
 }
 
 #features_area .features_items {
@@ -866,6 +872,7 @@ hr {
 
 #details_area {
     padding: 135px 0;
+    overflow: hidden;
 }
 
 #details_area .card {
@@ -944,6 +951,7 @@ hr {
     background: url(../images/11_cta/cta_bg.jpg) no-repeat center ;
     background-size: cover;
     padding: 91px 0 75px;
+    overflow: hidden;
 }
 
 #cta_area h3 {
@@ -983,6 +991,7 @@ hr {
 #footer_area {
     background-color: #212121;
     padding: 100px 0 88px;
+    overflow: hidden;
 }
 
 #footer_area .footer_top {

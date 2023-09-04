@@ -69,6 +69,25 @@
         row-gap: 10px;
     }
 
+    #banner_area .osman{
+        width: 100%;
+    }
+
+    #banner_area .osman input{
+        width: 100% !important;
+    }
+
+    #banner_area .bottom .fa-magnifying-glass {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+
     hr {
         color: #4CD7A3;
         height: 3px;
@@ -144,13 +163,13 @@
 
     #popular_area .popular_items ul {
         position: absolute;
-        top: 62%;
+        bottom: 190px;
         left: 50%;
-        transform: translate(-50%, -62%);
-        -webkit-transform: translate(-50%, -62%);
-        -moz-transform: translate(-50%, -62%);
-        -ms-transform: translate(-50%, -62%);
-        -o-transform: translate(-50%, -62%);
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
         width: 100%;
 }
 
@@ -547,19 +566,6 @@
     }
 }
 
-@media (min-width: 380px) and (max-width: 575.98px) {
-    #popular_area .popular_items ul {
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -75%);
-        -webkit-transform: translate(-50%, -70%);
-        -moz-transform: translate(-50%, -70%);
-        -ms-transform: translate(-50%, -70%);
-        -o-transform: translate(-50%, -70%);
-}
-}
-
 @media (min-width: 483px) and (max-width: 575.98px) {
     #footer_area .footer_middle .footer_middle_menu:nth-child(2) {
         text-align: center !important;
@@ -658,6 +664,33 @@
         padding: 24px 10px;
     }
 
+    #banner_area .osman {
+        margin: 0 auto;
+    }
+
+    #banner_area .bottom i.fa-location-dot {
+        color: #FF7474;
+        font-size: 24px;
+        position: absolute;
+        left: 30px;
+        top: 35%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+
+    #banner_area .bottom .fa-magnifying-glass {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
 
     /*  */
 
@@ -1247,6 +1280,15 @@
     #banner_area .orderCard .top, 
     #banner_area .orderCard .bottom {
         padding: 24px 10px;
+    }
+
+    #banner_area .bottom .row {
+        justify-content: center;
+    }
+
+    
+    #banner_area .bottom input {
+        width: 440px !important;
     }
 
 
